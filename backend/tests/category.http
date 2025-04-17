@@ -1,0 +1,32 @@
+
+### get all category
+
+GET {{BASE_URL}}/categorys
+Authorization : Bearer {{$global.accessToken}}
+
+##get category by id
+GET {{BASE_URL}}/categorys/3
+Authorization : Bearer {{$global.accessToken}}
+
+
+### create category
+POST {{BASE_URL}}/categorys
+Content-Type: application/json
+Authorization : Bearer {{$global.accessToken}}
+{
+    "kategoryName": "Sembako"
+    
+}
+
+#update category
+PUT {{BASE_URL}}/categorys/2
+Content-Type: application/json
+Authorization : Bearer {{$global.accessToken}}
+{
+    "kategoryName": "makanan Ringan"
+    
+}
+
+###delete category
+DELETE {{BASE_URL}}/categorys/4
+Authorization : Bearer {{$global.accessToken}}

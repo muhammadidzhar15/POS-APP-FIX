@@ -1,0 +1,61 @@
+[LOGGER] 2025-04-09 09:32:28.626 AM error: utils/jwt.js:verifyAccessToken - TokenExpiredError: jwt expired
+[LOGGER] 2025-04-09 09:40:11.059 AM error: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/product.controller.js:220:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-09 09:40:15.392 AM error: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/product.controller.js:220:37
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-09 09:45:28.048 AM error: uncaughtException: path must be a string, array of strings, or regular expression
+TypeError: path must be a string, array of strings, or regular expression
+    at pathToRegexp (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\path-to-regexp\index.js:69:11)
+    at new Layer (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:45:17)
+    at Function.route (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:505:15)
+    at proto.<computed> [as get] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:520:22)
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/routes/product.routes.js:14:14
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-09 09:47:09.755 AM error: utils/jwt.js:verifyAccessToken - TokenExpiredError: jwt expired
+[LOGGER] 2025-04-09 09:47:51.015 AM error: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/product.controller.js:245:30
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-09 10:15:02.232 AM error: uncaughtException: path must be a string, array of strings, or regular expression
+TypeError: path must be a string, array of strings, or regular expression
+    at pathToRegexp (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\path-to-regexp\index.js:69:11)
+    at new Layer (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:45:17)
+    at Function.route (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:505:15)
+    at proto.<computed> [as put] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:520:22)
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/routes/product.routes.js:16:14
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-09 10:17:17.207 AM error: controllers/product.controller.js:updateProduct - imagePath is not defined
+[LOGGER] 2025-04-09 10:20:35.370 AM error: utils/jwt.js:verifyAccessToken - TokenExpiredError: jwt expired
+[LOGGER] 2025-04-09 10:26:28.154 AM error: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/product.controller.js:352:30
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-09 10:26:33.559 AM error: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/product.controller.js:352:30
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)

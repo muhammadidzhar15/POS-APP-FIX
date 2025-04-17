@@ -1,0 +1,53 @@
+### create cart
+
+POST {{BASE_URL}}/carts
+Authorization: Bearer {{$global.accessToken}}
+Content-Type: application/json
+
+{
+  "price": 25000,
+  "productName": "Shampo",
+  "qty": 1,
+  "totalPrice": 25000,
+  "note": " ",
+  "productId": 1,
+  "userId": 13
+}
+
+
+### get all cart
+GET {{BASE_URL}}/carts
+Authorization: Bearer {{$global.accessToken}}
+
+###get cart by productId
+GET {{BASE_URL}}/carts/product/1/13
+Authorization: Bearer {{$global.accessToken}}
+
+
+###update cart
+
+PUT {{BASE_URL}}/carts/1
+Authorization: Bearer {{$global.accessToken}}
+Content-Type: application/json
+
+{
+  "price": 25000,
+  "productName": "sample product 2",
+  "qty": 1,
+  "totalPrice": 25000,
+  "note": " ",
+  "productId": 1,
+  "userId": 13
+}
+
+
+### delete cart
+
+DELETE {{BASE_URL}}/carts/3/13
+Authorization: Bearer {{$global.accessToken}}
+
+
+### delete cart by userid
+
+DELETE {{BASE_URL}}/carts/13
+Authorization: Bearer {{$global.accessToken}}

@@ -1,0 +1,37 @@
+[LOGGER] 2025-04-17 09:56:38.127 AM error: utils/jwt.js:verifyAccessToken - TokenExpiredError: jwt expired
+[LOGGER] 2025-04-17 09:56:38.148 AM error: utils/jwt.js:verifyAccessToken - JsonWebTokenError: invalid signature
+[LOGGER] 2025-04-17 10:01:11.752 AM error: utils/jwt.js:verifyAccessToken - TokenExpiredError: jwt expired
+[LOGGER] 2025-04-17 10:01:11.763 AM error: utils/jwt.js:verifyAccessToken - JsonWebTokenError: invalid signature
+[LOGGER] 2025-04-17 10:04:02.335 AM error: utils/jwt.js:verifyAccessToken - TokenExpiredError: jwt expired
+[LOGGER] 2025-04-17 10:04:02.347 AM error: utils/jwt.js:verifyAccessToken - JsonWebTokenError: invalid signature
+[LOGGER] 2025-04-17 08:31:54.113 PM error: utils/jwt.js:verifyAccessToken - TokenExpiredError: jwt expired
+[LOGGER] 2025-04-17 08:31:54.135 PM error: utils/jwt.js:verifyAccessToken - TokenExpiredError: jwt expired
+[LOGGER] 2025-04-17 08:31:54.148 PM error: utils/jwt.js:verifyAccessToken - JsonWebTokenError: invalid signature
+[LOGGER] 2025-04-17 08:31:54.158 PM error: utils/jwt.js:verifyAccessToken - JsonWebTokenError: invalid signature
+[LOGGER] 2025-04-17 08:34:05.951 PM error: utils/jwt.js:verifyAccessToken - TokenExpiredError: jwt expired
+[LOGGER] 2025-04-17 08:34:05.960 PM error: utils/jwt.js:verifyAccessToken - JsonWebTokenError: invalid signature
+[LOGGER] 2025-04-17 09:07:37.628 PM error: utils/jwt.js:verifyAccessToken - TokenExpiredError: jwt expired
+[LOGGER] 2025-04-17 09:07:37.639 PM error: utils/jwt.js:verifyAccessToken - TokenExpiredError: jwt expired
+[LOGGER] 2025-04-17 09:07:37.654 PM error: utils/jwt.js:verifyAccessToken - JsonWebTokenError: invalid signature
+[LOGGER] 2025-04-17 09:07:37.670 PM error: utils/jwt.js:verifyAccessToken - JsonWebTokenError: invalid signature
+[LOGGER] 2025-04-17 09:16:32.591 PM error: utils/jwt.js:verifyAccessToken - TokenExpiredError: jwt expired
+[LOGGER] 2025-04-17 09:16:32.595 PM error: utils/jwt.js:verifyAccessToken - TokenExpiredError: jwt expired
+[LOGGER] 2025-04-17 09:16:32.605 PM error: utils/jwt.js:verifyAccessToken - JsonWebTokenError: invalid signature
+[LOGGER] 2025-04-17 09:16:32.612 PM error: utils/jwt.js:verifyAccessToken - JsonWebTokenError: invalid signature
+[LOGGER] 2025-04-17 09:16:37.702 PM error: utils/jwt.js:verifyAccessToken - JsonWebTokenError: jwt malformed
+[LOGGER] 2025-04-17 09:16:37.708 PM error: utils/jwt.js:verifyAccessToken - JsonWebTokenError: jwt malformed
+[LOGGER] 2025-04-17 09:16:39.678 PM error: utils/jwt.js:verifyAccessToken - JsonWebTokenError: jwt malformed
+[LOGGER] 2025-04-17 09:16:39.682 PM error: utils/jwt.js:verifyAccessToken - JsonWebTokenError: jwt malformed
+[LOGGER] 2025-04-17 09:16:57.935 PM error: utils/jwt.js:verifyAccessToken - JsonWebTokenError: jwt malformed
+[LOGGER] 2025-04-17 09:16:57.942 PM error: utils/jwt.js:verifyAccessToken - JsonWebTokenError: jwt malformed
+[LOGGER] 2025-04-17 09:17:22.773 PM error: controllers/kategory.controller.js:deleteCategory - 
+Invalid `prisma.category.delete()` invocation:
+
+
+Foreign key constraint violated: `kategoryId`
+[LOGGER] 2025-04-17 09:19:40.059 PM error: utils/jwt.js:verifyAccessToken - TokenExpiredError: jwt expired
+[LOGGER] 2025-04-17 09:19:40.069 PM error: utils/jwt.js:verifyAccessToken - JsonWebTokenError: invalid signature
+[LOGGER] 2025-04-17 09:44:27.705 PM error: utils/jwt.js:verifyAccessToken - TokenExpiredError: jwt expired
+[LOGGER] 2025-04-17 09:44:27.713 PM error: utils/jwt.js:verifyAccessToken - TokenExpiredError: jwt expired
+[LOGGER] 2025-04-17 09:44:27.719 PM error: utils/jwt.js:verifyAccessToken - JsonWebTokenError: invalid signature
+[LOGGER] 2025-04-17 09:44:27.726 PM error: utils/jwt.js:verifyAccessToken - JsonWebTokenError: invalid signature

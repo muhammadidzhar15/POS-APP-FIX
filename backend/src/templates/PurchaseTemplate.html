@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Report Purchase</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    .no-border td {
+      border: none;
+      padding: 4px 0;
+    }
+    .text-right {
+      text-align: right;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    hr {
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <h3>Data Purchase</h3>
+
+  {{#each purchases}}
+  <table class="no-border">
+    <tr>
+      <td width="100px">Code</td>
+      <td width="10px">:</td>
+      <td>{{this.code}}</td>
+    </tr>
+    <tr>
+      <td>Order Date</td>
+      <td>:</td>
+      <td>{{this.date}}</td>
+    </tr>
+    <tr>
+      <td>Created By</td>
+      <td>:</td>
+      <td>{{this.user}}</td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        <table cellpadding="5" cellspacing="0">
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total Price</th>
+          </tr>
+          {{#each this.purchasedetail}}
+          <tr>
+            <td>{{this.id}}</td>
+            <td>{{this.productName}}</td>
+            <td>{{this.price}}</td>
+            <td>{{this.qty}}</td>
+            <td class="text-right">Rp {{this.total}}</td>
+          </tr>
+          {{/each}}
+          <tr>
+            <td colspan="4" class="text-right"><strong>Total</strong></td>
+            <td class="text-right">Rp {{this.total}}</td>
+          </tr>
+          <tr>
+            <td colspan="4" class="text-right"><strong>Grand Total</strong></td>
+            <td class="text-right">Rp {{this.grandTotal}}</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr><td colspan="3"><hr /></td></tr>
+  </table>
+  {{/each}}
+</body>
+</html>

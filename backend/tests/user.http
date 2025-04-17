@@ -1,0 +1,66 @@
+### create user
+
+POST {{BASE_URL}}/users
+Content-Type : application/json
+{
+    "name": "mortalkombat",
+    "userName": "liu kang",
+    "password": "1234",
+    "confirmPassword" : "1234",
+    "role": "admin"
+    
+}
+
+
+### user login
+
+POST {{BASE_URL}}/users/login
+Content-Type: application/json
+{
+    "userName" :"ijarganteng123",
+    "password" : "1234"
+}
+
+{{
+$global.accessToken=JSON.parse(response.body).accessToken;
+$global.refreshToken=JSON.parse(response.body).refreshToken;
+}}
+
+### update user
+
+PUT {{BASE_URL}}/users/13
+Content-Type: application/json
+Authorization : Bearer {{$global.accessToken}}
+{
+    "name": "mortalkombat",
+    "userName": "ijarganteng123",
+    "password": "1234",
+    "confirmPassword" : "1234",
+    "role": "admin"
+    
+}
+
+#delete user
+
+DELETE {{BASE_URL}}/users/12
+Content-Type: application/json
+Authorization : Bearer {{$global.accessToken}}
+
+
+#### get all user
+GET {{BASE_URL}}/users
+Authorization : Bearer {{$global.accessToken}}
+
+#get user by id
+GET {{BASE_URL}}/users/13
+Authorization : Bearer {{$global.accessToken}}
+
+### refresh token
+
+GET  {{BASE_URL}}/users/refresh
+Authorization : Bearer {{$global.refreshToken}}
+
+{{
+$global.accessToken=JSON.parse(response.body).accessToken;
+$global.refreshToken=JSON.parse(response.body).refreshToken;
+}}

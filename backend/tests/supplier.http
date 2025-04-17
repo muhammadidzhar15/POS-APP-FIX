@@ -1,0 +1,52 @@
+# @lastId = 996
+# @limit=4
+
+###get all suplier
+
+GET {{BASE_URL}}/suppliers?lastId={{lastId}}&limit={{limit}}
+Authorization : Bearer {{$global.accessToken}}
+
+##by id
+
+GET {{BASE_URL}}/suppliers/102
+Authorization : Bearer {{$global.accessToken}}
+
+#create supplier
+POST {{BASE_URL}}/suppliers
+Authorization : Bearer {{$global.accessToken}}
+Content-Type: application/json
+{
+    "firstName" :"Campina",
+    "lastName" : "Eskrim",
+    "phone": "12345",
+    "email": null,
+    "address":"Jakarta"
+}
+
+#update supplier
+
+PUT {{BASE_URL}}/suppliers/1001
+Authorization : Bearer {{$global.accessToken}}
+Content-Type: application/json
+{
+    "firstName" :"Campina123",
+    "lastName" : "Eskrim",
+    "phone": "12345",
+    "email": null,
+    "address":"bandakarta"
+}
+
+#detele supplier
+
+DELETE {{BASE_URL}}/suppliers/1001
+Authorization : Bearer {{$global.accessToken}}
+
+
+##generate pdf file
+GET {{BASE_URL}}/suppliers-pdf
+Authorization : Bearer {{$global.accessToken}}
+
+##generate supplier excel
+
+GET {{BASE_URL}}/suppliers-excel
+Authorization : Bearer {{$global.accessToken}}

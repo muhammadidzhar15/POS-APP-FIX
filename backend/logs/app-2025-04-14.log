@@ -1,0 +1,61 @@
+[LOGGER] 2025-04-14 11:21:54.257 AM error: utils/jwt.js:verifyAccessToken - TokenExpiredError: jwt expired
+[LOGGER] 2025-04-14 02:21:29.492 PM error: uncaughtException: excelJS is not defined
+ReferenceError: excelJS is not defined
+    at generateExcel (file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/order.controller.js:244:20)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/error.controller.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:286:9
+[LOGGER] 2025-04-14 02:21:53.538 PM error: uncaughtException: imp is not defined
+ReferenceError: imp is not defined
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/order.controller.js:9:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-14 03:09:14.239 PM error: uncaughtException: Router.use() requires a middleware function
+TypeError: Router.use() requires a middleware function
+    at Function.use (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:462:11)
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/routes/index.js:17:8
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-14 03:09:21.451 PM error: uncaughtException: order is not defined
+ReferenceError: order is not defined
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/routes/index.js:17:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-14 03:15:57.195 PM error: controllers/orderReturn.controller.js:insertOrderReturn - 
+Invalid `prisma.orderreturndetail.create()` invocation:
+
+{
+  data: {
+    orderReturnId: 1,
+    productId: 1,
+    productName: "Sample Product",
+    price: 25000,
+    qty: 1,
+    total: 25000,
++   orderreturn: {
++     create: OrderreturnCreateWithoutOrderreturndetailInput | OrderreturnUncheckedCreateWithoutOrderreturndetailInput,
++     connectOrCreate: OrderreturnCreateOrConnectWithoutOrderreturndetailInput,
++     connect: OrderreturnWhereUniqueInput
++   }
+  }
+}
+
+Argument `orderreturn` is missing.

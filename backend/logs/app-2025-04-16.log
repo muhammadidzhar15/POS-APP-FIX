@@ -1,0 +1,39 @@
+[LOGGER] 2025-04-16 08:34:09.718 AM error: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/purchase.controller.js:302:30
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-16 08:37:15.497 AM error: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/purchase.controller.js:303:30
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-16 08:37:17.941 AM error: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/purchase.controller.js:303:30
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-16 09:31:02.787 AM error: uncaughtException: path must be a string, array of strings, or regular expression
+TypeError: path must be a string, array of strings, or regular expression
+    at pathToRegexp (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\path-to-regexp\index.js:69:11)
+    at new Layer (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:45:17)
+    at Function.route (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:505:15)
+    at app.<computed> [as get] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\application.js:498:30)
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/routes/purchase.route.js:18:16
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-16 09:31:28.551 AM error: uncaughtException: purchase is not defined
+ReferenceError: purchase is not defined
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/routes/purchase.route.js:18:52
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)

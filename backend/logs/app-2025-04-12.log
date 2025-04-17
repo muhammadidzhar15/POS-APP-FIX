@@ -1,0 +1,140 @@
+[LOGGER] 2025-04-12 11:58:16.391 AM error: uncaughtException: Router.use() requires a middleware function
+TypeError: Router.use() requires a middleware function
+    at Function.use (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:462:11)
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/routes/index.js:15:8
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-12 11:58:17.970 AM error: uncaughtException: Router.use() requires a middleware function
+TypeError: Router.use() requires a middleware function
+    at Function.use (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:462:11)
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/routes/index.js:15:8
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-12 11:58:21.512 AM error: uncaughtException: Router.use() requires a middleware function
+TypeError: Router.use() requires a middleware function
+    at Function.use (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:462:11)
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/routes/index.js:15:8
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-12 11:58:25.460 AM error: uncaughtException: Router.use() requires a middleware function
+TypeError: Router.use() requires a middleware function
+    at Function.use (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:462:11)
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/routes/index.js:15:8
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-12 11:58:27.487 AM error: uncaughtException: order is not defined
+ReferenceError: order is not defined
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/routes/index.js:15:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-12 12:06:15.825 PM error: utils/jwt.js:verifyAccessToken - TokenExpiredError: jwt expired
+[LOGGER] 2025-04-12 12:07:07.923 PM error: controllers/order.controller.js:inserOrder -
+Invalid `prisma.orders.create()` invocation:
+
+{
+  data: {
+    code: "ORD-1744434427914",
+    date: "2025-04-12T03:47:24.000Z",
+    total: "120000",
+    ppn: "13200",
+    grandTotal: "133200",
+    userId: 13,
++   ppm: Decimal
+  }
+}
+
+Argument `ppm` is missing.
+[LOGGER] 2025-04-12 12:10:02.309 PM error: controllers/order.controller.js:inserOrder -
+Invalid `prisma.orders.create()` invocation:
+
+{
+  data: {
+    code: "ORD-1744434602306",
+    date: "2025-04-12T03:47:24.000Z",
+    total: "120000",
+    ppn: "13200",
+    grandTotal: "133200",
+    userId: 13,
++   ppm: Decimal
+  }
+}
+
+Argument `ppm` is missing.
+[LOGGER] 2025-04-12 12:11:55.099 PM error: controllers/order.controller.js:inserOrder -
+Invalid `prisma.orders.create()` invocation:
+
+{
+  data: {
+    code: "ORD-1744434715093",
+    date: "2025-04-12T03:47:24.000Z",
+    total: "120000",
+    ppn: "13200",
+    grandTotal: "133200",
+    userId: 13,
++   ppm: Decimal
+  }
+}
+
+Argument `ppm` is missing.
+[LOGGER] 2025-04-12 12:12:18.998 PM error: controllers/order.controller.js:inserOrder -
+Invalid `prisma.orders.create()` invocation:
+
+{
+  data: {
+    code: "ORD-1744434738995",
+    date: "2025-04-12T03:47:24.000Z",
+    total: "120000",
+    ppn: "13200",
+    grandTotal: "133200",
+    userId: 13,
++   ppm: Decimal
+  }
+}
+
+Argument `ppm` is missing.
+[LOGGER] 2025-04-12 12:19:35.428 PM error: controllers/order.controller.js:inserOrder -
+Invalid `prisma.orders.create()` invocation:
+
+
+The column `ppm` does not exist in the current database.
+[LOGGER] 2025-04-12 06:05:06.378 PM error: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/order.controller.js:68:29
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-12 06:10:44.657 PM error: uncaughtException: path must be a string, array of strings, or regular expression
+TypeError: path must be a string, array of strings, or regular expression
+    at pathToRegexp (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\path-to-regexp\index.js:69:11)
+    at new Layer (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:45:17)
+    at Function.route (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:505:15)
+    at proto.<computed> [as get] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:520:22)
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/routes/order.route.js:8:13
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-12 06:13:08.832 PM error: uncaughtException: as is not defined
+ReferenceError: as is not defined
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/order.controller.js:93:28
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-12 08:38:46.291 PM error: controllers/order.controller.js:getAllOrder -
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `1064`. Message: `You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR date LIKE CONCAT ('%', ?, '%'),
+          OR total LIKE CONCAT ('%', ?, '%...' at line 5`

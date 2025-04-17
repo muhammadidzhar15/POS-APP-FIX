@@ -1,0 +1,254 @@
+[LOGGER] 2025-04-15 11:16:35.945 AM error: uncaughtException: purchase is not defined
+ReferenceError: purchase is not defined
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/routes/index.js:19:19
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-15 11:16:37.627 AM error: uncaughtException: purchase is not defined
+ReferenceError: purchase is not defined
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/routes/index.js:19:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-15 11:26:09.100 AM error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Function.listen (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\application.js:635:24)
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/index.js:10:5
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-15 11:26:28.863 AM error: controllers/purchase.controller.js: create purchase - setOrderCode is not defined
+[LOGGER] 2025-04-15 11:28:55.474 AM error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Function.listen (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\application.js:635:24)
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/index.js:10:5
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-15 11:29:15.094 AM error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Function.listen (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\application.js:635:24)
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/index.js:10:5
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-15 11:29:57.602 AM error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Function.listen (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\application.js:635:24)
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/index.js:10:5
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-15 12:15:38.984 PM error: controllers/purchase.controller.js: create purchase - 
+Invalid `prisma.purchase.create()` invocation:
+
+{
+  data: {
+    code: "PUR-1744694138975",
+    date: new Date("2025-04-15T00:00:00.000Z"),
+    note: "testing..",
+    ppn: 2500,
+    grandTotal: 27500,
+    userId: 13,
++   total: Decimal
+  }
+}
+
+Argument `total` is missing.
+[LOGGER] 2025-04-15 12:19:53.473 PM error: controllers/purchase.controller.js: create purchase - 
+Invalid `prisma.purchasedetail.create()` invocation:
+
+{
+  data: {
+    productId: 1,
+    productName: "Sample Product",
+    price: NaN,
+    qty: 1,
+    total: 25000,
+    purchaseId: 1,
++   purchase: {
++     create: PurchaseCreateWithoutPurchasedetailInput | PurchaseUncheckedCreateWithoutPurchasedetailInput,
++     connectOrCreate: PurchaseCreateOrConnectWithoutPurchasedetailInput,
++     connect: PurchaseWhereUniqueInput
++   }
+  }
+}
+
+Argument `purchase` is missing.
+[LOGGER] 2025-04-15 12:21:13.141 PM error: controllers/purchase.controller.js: create purchase - 
+Invalid `prisma.purchasedetail.create()` invocation:
+
+{
+  data: {
+    productId: 1,
+    productName: "Sample Product",
+    price: NaN,
+    qty: 1,
+    total: 25000,
+    purchase: {
+      connect: {
+        id: 2
+      }
+    },
++   product: {
++     create: ProductCreateWithoutPurchasedetailInput | ProductUncheckedCreateWithoutPurchasedetailInput,
++     connectOrCreate: ProductCreateOrConnectWithoutPurchasedetailInput,
++     connect: ProductWhereUniqueInput
++   }
+  }
+}
+
+Argument `product` is missing.
+[LOGGER] 2025-04-15 12:21:52.432 PM error: controllers/purchase.controller.js: create purchase - 
+Invalid `prisma.purchase.create()` invocation:
+
+{
+  data: {
+    code: "PUR-1744694512426",
+    date: new Date("2025-04-15T00:00:00.000Z"),
+    note: "testing..",
+    ppn: 2500,
+    grandTotal: 27500,
+    userId: 13,
++   total: Decimal
+  }
+}
+
+Argument `total` is missing.
+[LOGGER] 2025-04-15 12:24:32.114 PM error: utils/jwt.js:verifyAccessToken - TokenExpiredError: jwt expired
+[LOGGER] 2025-04-15 01:42:51.156 PM error: uncaughtException: get is not defined
+ReferenceError: get is not defined
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/routes/purchase.route.js:12:52
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-15 01:45:24.655 PM error: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/purchase.controller.js:173:28
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-15 02:12:13.981 PM error: uncaughtException: generatepdf is not defined
+ReferenceError: generatepdf is not defined
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/routes/purchase.route.js:14:52
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-15 02:14:04.390 PM error: uncaughtException: ENOENT: no such file or directory, open 'C:\backend\src\templates\PurchaseTemplate.html'
+Error: ENOENT: no such file or directory, open 'C:\backend\src\templates\PurchaseTemplate.html'
+    at Object.readFileSync (node:fs:453:20)
+    at generatePdf (file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/purchase.controller.js:179:17)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/error.controller.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:280:10)
+    at expressInit (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:286:9
+[LOGGER] 2025-04-15 02:16:53.324 PM error: uncaughtException: __dirname is not defined
+ReferenceError: __dirname is not defined
+    at generatePdf (file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/purchase.controller.js:177:28)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/error.controller.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:280:10)
+    at expressInit (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:346:12)
+[LOGGER] 2025-04-15 02:18:42.480 PM error: uncaughtException: ENOENT: no such file or directory, open 'C:\C:\Users\idzharchocs\Desktop\skrip\backend\src\controllers\src\templates\PurchaseTemplate.html'
+Error: ENOENT: no such file or directory, open 'C:\C:\Users\idzharchocs\Desktop\skrip\backend\src\controllers\src\templates\PurchaseTemplate.html'
+    at Object.readFileSync (node:fs:453:20)
+    at generatePdf (file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/purchase.controller.js:185:17)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/error.controller.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:280:10)
+    at expressInit (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:286:9
+[LOGGER] 2025-04-15 02:21:39.607 PM error: uncaughtException: __dirname is not defined
+ReferenceError: __dirname is not defined
+    at generatePdf (file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/purchase.controller.js:180:28)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/error.controller.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:280:10)
+    at expressInit (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:346:12)
+[LOGGER] 2025-04-15 02:22:55.885 PM error: uncaughtException: ENOENT: no such file or directory, open 'C:\C:\Users\idzharchocs\Desktop\skrip\backend\src\controllers\src\templates\PurchaseTemplate.html'
+Error: ENOENT: no such file or directory, open 'C:\C:\Users\idzharchocs\Desktop\skrip\backend\src\controllers\src\templates\PurchaseTemplate.html'
+    at Object.readFileSync (node:fs:453:20)
+    at generatePdf (file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/purchase.controller.js:189:17)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/error.controller.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:280:10)
+    at expressInit (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:286:9
+[LOGGER] 2025-04-15 02:29:33.075 PM error: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/purchase.controller.js:302:30
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)

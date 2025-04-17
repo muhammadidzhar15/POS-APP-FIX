@@ -1,0 +1,160 @@
+[LOGGER] 2025-04-08 09:36:24.652 AM error: uncaughtException: path must be a string, array of strings, or regular expression
+TypeError: path must be a string, array of strings, or regular expression
+    at pathToRegexp (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\path-to-regexp\index.js:69:11)
+    at new Layer (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:45:17)
+    at Function.route (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:505:15)
+    at proto.<computed> [as get] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:520:22)
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/routes/supplier.router.js:20:16
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-08 09:36:46.570 AM error: uncaughtException: genera is not defined
+ReferenceError: genera is not defined
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/routes/supplier.router.js:20:54
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-08 09:46:18.981 AM error: uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at generateExcel (file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/supplier.controller.js:265:19)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/error.controller.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:286:9
+[LOGGER] 2025-04-08 09:53:39.358 AM error: controllers/supplier.controller.js:generateExcel - ENOENT: no such file or directory, open 'C:\Users\idzharchocs\Desktop\skrip\backend\backend\public\excel\Supplier.xlsx'
+[LOGGER] 2025-04-08 09:58:16.057 AM error: utils/jwt.js:verifyAccessToken - TokenExpiredError: jwt expired
+[LOGGER] 2025-04-08 10:36:44.201 AM error: uncaughtException: r is not defined
+ReferenceError: r is not defined
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/routes/index.js:11:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-08 10:36:53.078 AM error: uncaughtException: Router.use() requires a middleware function
+TypeError: Router.use() requires a middleware function
+    at Function.use (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:462:11)
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/routes/index.js:11:8
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-08 10:36:57.291 AM error: uncaughtException: Router.use() requires a middleware function
+TypeError: Router.use() requires a middleware function
+    at Function.use (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:462:11)
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/routes/index.js:11:8
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-08 10:36:58.904 AM error: uncaughtException: Router.use() requires a middleware function
+TypeError: Router.use() requires a middleware function
+    at Function.use (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:462:11)
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/routes/index.js:11:8
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-08 10:53:03.556 AM error: utils/jwt.js:verifyAccessToken - TokenExpiredError: jwt expired
+[LOGGER] 2025-04-08 10:53:15.754 AM error: uncaughtException: 
+Invalid `prisma.product.create()` invocation:
+
+{
+  data: {
+    code: "PRD-1648167616443",
+    barcode: "123456789",
+    productName: "Sample Product",
+    image: "1cdd650a1d431b3d609ab1c494cab524.png",
+    url: "http://localhost:3000/images/1cdd650a1d431b3d609ab1c494cab524.png",
+    qty: 100,
+    price: 25000,
+    kategoryId: "1",
+                ~~~
+    supplierId: 5
+  }
+}
+
+Argument `kategoryId`: Invalid value provided. Expected Int, provided String.
+PrismaClientValidationError: 
+Invalid `prisma.product.create()` invocation:
+
+{
+  data: {
+    code: "PRD-1648167616443",
+    barcode: "123456789",
+    productName: "Sample Product",
+    image: "1cdd650a1d431b3d609ab1c494cab524.png",
+    url: "http://localhost:3000/images/1cdd650a1d431b3d609ab1c494cab524.png",
+    qty: 100,
+    price: 25000,
+    kategoryId: "1",
+                ~~~
+    supplierId: 5
+  }
+}
+
+Argument `kategoryId`: Invalid value provided. Expected Int, provided String.
+    at Cn (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\@prisma\client\runtime\library.js:29:1363)
+    at Wn.handleRequestError (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\@prisma\client\runtime\library.js:121:7177)
+    at Wn.handleAndLogRequestError (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\@prisma\client\runtime\library.js:121:6858)
+    at Wn.request (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\@prisma\client\runtime\library.js:121:6565)
+    at async l (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\@prisma\client\runtime\library.js:130:10067)
+    at async file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/product.controller.js:67:22
+[LOGGER] 2025-04-08 11:01:14.169 AM error: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/product.controller.js:99:30
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-08 11:01:16.982 AM error: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/product.controller.js:99:30
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-08 11:19:18.564 AM error: uncaughtException: pr is not defined
+ReferenceError: pr is not defined
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/routes/product.routes.js:8:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-08 11:19:22.863 AM error: uncaughtException: path must be a string, array of strings, or regular expression
+TypeError: path must be a string, array of strings, or regular expression
+    at pathToRegexp (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\path-to-regexp\index.js:69:11)
+    at new Layer (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:45:17)
+    at Function.route (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:505:15)
+    at proto.<computed> [as get] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:520:22)
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/routes/product.routes.js:8:14
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-08 11:19:47.282 AM error: uncaughtException: get is not defined
+ReferenceError: get is not defined
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/routes/product.routes.js:8:45
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-08 11:19:49.304 AM error: uncaughtException: getAllP is not defined
+ReferenceError: getAllP is not defined
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/routes/product.routes.js:8:45
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)

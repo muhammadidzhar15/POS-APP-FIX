@@ -1,0 +1,62 @@
+[LOGGER] 2025-04-04 07:41:20.387 AM error: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/supplier.controller.js:188:28
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-04 08:05:03.770 AM error: uncaughtException: path must be a string, array of strings, or regular expression
+TypeError: path must be a string, array of strings, or regular expression
+    at pathToRegexp (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\path-to-regexp\index.js:69:11)
+    at new Layer (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:45:17)
+    at Function.route (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:505:15)
+    at proto.<computed> [as get] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:520:22)
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/routes/supplier.router.js:18:16
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-04 08:05:29.064 AM error: uncaughtException: genera is not defined
+ReferenceError: genera is not defined
+    at file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/routes/supplier.router.js:18:51
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+[LOGGER] 2025-04-04 08:06:53.686 AM error: uncaughtException: ENOENT: no such file or directory, open 'C:\backend\src\templates\SupplierTemplate.html'
+Error: ENOENT: no such file or directory, open 'C:\backend\src\templates\SupplierTemplate.html'
+    at Object.readFileSync (node:fs:453:20)
+    at generatePdf (file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/supplier.controller.js:196:17)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/error.controller.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:284:15
+[LOGGER] 2025-04-04 08:10:32.966 AM error: uncaughtException: __dirname is not defined
+ReferenceError: __dirname is not defined
+    at generatePdf (file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/supplier.controller.js:196:30)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/error.controller.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:346:12)
+[LOGGER] 2025-04-04 08:11:39.290 AM error: uncaughtException: __dirname is not defined
+ReferenceError: __dirname is not defined
+    at generatePdf (file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/supplier.controller.js:193:29)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///C:/Users/idzharchocs/Desktop/skrip/backend/src/controllers/error.controller.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\idzharchocs\Desktop\skrip\backend\node_modules\express\lib\router\index.js:346:12)
+[LOGGER] 2025-04-04 08:12:51.586 AM error: utils/jwt.js:verifyAccessToken - TokenExpiredError: jwt expired
